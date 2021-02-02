@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to JSON</title>
+<body>
+
+    <ul id="content"></ul>
+
+<script>
+const cats = [
+    {
+        name: "Smokie", 
+        age: 2,
+        breed: "Calico"
+    },
+    {
+        name: "Kitty", 
+        age: 5,
+        breed: "Red Tabby"
+    },
+    {
+        name: "Socks", 
+        age: 4,
+        breed: "Mixed"
+    },
+];
+
+let output = '';
+
+for(let i = 0; i < cats.length; i++) {
+    output += '<li>'+cats[i].name+'<br>'+cats[i].age+'<br>'+cats[i].breed+'</li>';
+}
+
+document.getElementById('content').innerHTML = output;
+
+</script>
+</body> 
+</html>

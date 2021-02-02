@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to Parsing</title>
+<body>
+
+    <div id="content">
+        <h2 id="temp"></h2>
+        <h3 id="weather"></h3>
+        <ul id="forecast"></ul>
+    </div>
+
+<script>
+    const results = {
+        current: {
+            temp: 30.81,
+            weather: 'Snow'
+        },
+        daily: [
+            { 
+                temp: 31.98,
+                weather: 'Snow'
+            },
+            { 
+                temp: 32,
+                weather: 'Snow'
+            },
+            { 
+                temp: 34,
+                weather: 'Clear'
+            },
+            { 
+                temp: 37.65,
+                weather: 'Rain'
+            },
+            { 
+                temp: 38,
+                weather: 'Overcast'
+            }
+        ]
+    };
+
+//Challenge: Parse the object to show the current temp, weather, and 5-day forecast
+//Get the temp & weather & update innerHTML for associated HTML ids
+//Create a loop to parse the daily array and update an output variable to store values
+//Update innerHTML with the output value after loop complete
+
+</script>
+</body> 
+</html>

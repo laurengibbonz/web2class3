@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to Parsing</title>
+<body>
+
+    <ul id="content"></ul>
+
+<script>
+const cats = [
+    {
+        name: "Smokie", 
+        age: 2,
+        breed: "Calico"
+    },
+    {
+        name: "Kitty", 
+        age: 5,
+        breed: "Red Tabby"
+    },
+    {
+        name: "Celine", 
+        age: 4,
+        breed: "Sphynx"
+    },
+];
+
+let output = '';
+
+for(let i = 0; i < cats.length; i++) {
+    output += `<li>${cats[i].name}<br>${cats[i].breed}<br>${cats[i].age}<br></li>`;
+}
+
+document.querySelector('#content').innerHTML = output;
+
+//Show how to parse without an array
+
+</script>
+</body> 
+</html>

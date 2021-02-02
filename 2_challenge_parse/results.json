@@ -1,0 +1,27 @@
+[
+    {
+        "artist": "Olivia Rodrigo", 
+        "song": "Drivers License",
+        "rank": 1
+    },
+    {
+        "artist": "Ariana Grande Ft. Doja Cat & Megan Thee Stallion", 
+        "song": "34+35",
+        "rank": 2
+    },
+    {
+        "artist": "24kGoldn Featuring iann dior", 
+        "song": "Mood",
+        "rank": 3
+    },
+    {
+        "artist": "The Weeknd", 
+        "song": "Blinding Lights",
+        "rank": 4
+    },
+    {
+        "artist": "Ariana Grande", 
+        "song": "Positions",
+        "rank": 5
+    }
+]

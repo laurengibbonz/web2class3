@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <style>
+    /* update the styling to make it your own */
+    body {
+	    background: blue;
+	    color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+        height: 2000px;
+    }
+    
+    #wrapper {
+	    margin: 0 auto;
+	    padding: 5%;
+    }
+    
+    #content img {
+	    padding: 1%;
+	    vertical-align: middle;
+	    width: 20%;
+    }
+    
+    </style>
+</head>  
+<body>
+    <h1>Weather – New York City</h1>
+
+    <div id="content">
+        <h2 id="temp"></h2>
+        <h3 id="weather"></h3>
+        <ul id="forecast"></ul>
+    </div>
+
+    <script src="js/fetch.js"></script>
+</body> 
+</html>
